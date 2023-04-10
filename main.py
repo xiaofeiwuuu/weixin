@@ -131,7 +131,7 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
     data = {
         "touser": to_user,
         "template_id": config["template_id"],
-        "url": "http://weixin.qq.com/download",
+        "url": "https://qianfangzy.com/",
         "topcolor": "#FF0000",
         "data": {
             "date": {
