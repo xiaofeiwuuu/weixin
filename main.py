@@ -131,7 +131,7 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
     data = {
         "touser": to_user,
         "template_id": config["template_id"],
-        "url": "https://qianfangzy.com/",
+        "url": "http://43.143.48.161/",
         "topcolor": "#FF0000",
         "data": {
             "date": {
